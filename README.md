@@ -4,8 +4,9 @@ Image properties like creating image, applying BLUR filter, adding drop shadow e
 Use command line arguments to control the image effects .
 
 To know available command line options run below command:
-python Image_Effects.py --help 
+
+> **python Image_Effects.py --help** 
 
 Example: 
 To give drop shadow effect run below command: 
-python Image_Effects.py --shadow true 
+> **python Image_Effects.py --shadow true** 
