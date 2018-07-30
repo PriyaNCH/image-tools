@@ -69,5 +69,3 @@ if resp == 'Y' or resp == 'y':
     disp_img.show()
 else:
     exit
- 
-
