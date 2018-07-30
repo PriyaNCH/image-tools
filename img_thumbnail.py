@@ -1,0 +1,11 @@
+from PIL import Image
+img = Image.open('images/Desert.png')
+print("image before thumbnail")
+img.show()
+img.thumbnail((300,300))
+img.save('images/Desert_thumbnail.png')
+print("original image")
+img.show()
+print("thumbnail image")
+img1 = Image.open('images/Desert_thumbnail.png')
+img1.show()
